@@ -59,11 +59,5 @@ Server Running
 Server Started at 3000
 Database Connected
 
-📡 API Endpoints
-Method	Endpoint	Description
-POST	/api/v1/post	Create a new user
-GET	/api/v1/get-all	Get all users
-PATCH	/api/v1/update-user/:id	Update user by ID
-DELETE	/api/v1/delete/:id	Delete user by ID
 
 
