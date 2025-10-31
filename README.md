@@ -65,19 +65,7 @@ POST	/api/v1/post	Create a new user
 GET	/api/v1/get-all	Get all users
 PATCH	/api/v1/update-user/:id	Update user by ID
 DELETE	/api/v1/delete/:id	Delete user by ID
-📦 Example Payload (POST /api/v1/post)
-{
-  "name": "Cho2",
-  "age": 25
-}
 
-🧾 Example Response
-{
-  "_id": "6723d12c0f4eab12bc7f2a4d",
-  "name": "Cho2",
-  "age": 25,
-  "__v": 0
-}
 
 express-mongodb-crud/
 │
@@ -94,8 +82,3 @@ express-mongodb-crud/
 └── handler/
     └── handler.js      # Controller logic for CRUD operations
 
-
-🤝 Contributing
-
-Pull requests are welcome!
-For major changes, please open an issue first to discuss what you’d like to change.
