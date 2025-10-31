@@ -67,18 +67,3 @@ PATCH	/api/v1/update-user/:id	Update user by ID
 DELETE	/api/v1/delete/:id	Delete user by ID
 
 
-express-mongodb-crud/
-│
-├── .env
-├── package.json
-├── index.js
-│
-├── model/
-│   └── model.js            # Mongoose schema/model
-│
-├── routes/
-│   └── routes.js           # Express route definitions
-│
-└── handler/
-    └── handler.js      # Controller logic for CRUD operations
-
